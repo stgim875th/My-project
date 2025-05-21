@@ -1,0 +1,29 @@
+# === Unity 기본 무시 대상 ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# === VS / JetBrains 환경 파일 무시 ===
+.vscode/
+.vs/
+.idea/
+*.suo
+*.user
+*.userprefs
+
+# === 유니티 결과물 무시 ===
+*.apk
+*.aab
+*.unitypackage
+
+# === SonarQube 및 Git 포함 대상 (무시하지 않아야 함) ===
+!Assets/
+!Packages/
+!ProjectSettings/
+!*.csproj
+!*.sln
+!.editorconfig
